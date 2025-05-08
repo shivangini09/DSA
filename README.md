@@ -1,6 +1,6 @@
 # 🧠 DSA 300 Practice Journey
 
-This repository contains my personal journey of solving **300 Data Structures & Algorithms problems** as part of my 3-month preparation plan. Problems are solved on platforms like [GateCode](https://gatecode.io), LeetCode, and GeeksforGeeks.
+This repository contains my personal journey of solving **300 Data Structures & Algorithms problems** as part of my 3-month preparation plan. Problems are solved on platforms like  LeetCode and GeeksforGeeks.
 
 ## 🎯 Goals
 
@@ -10,7 +10,5 @@ This repository contains my personal journey of solving **300 Data Structures & 
 - ✅ Track progress across topics
 - ✅ Build consistency and discipline
 
-## 📁 Structure
 
-Problems are organized by topic:
 
