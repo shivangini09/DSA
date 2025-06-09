@@ -18,6 +18,7 @@ public:
 
                 if(nums[i]>nums[index]){
                     swap(nums[i],nums[index]);
+                    break;
                 }
             
             }
