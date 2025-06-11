@@ -2,10 +2,10 @@ class Solution {
 public:
     int maxSubArray(vector<int>& nums) {
         int n=nums.size();
-        int maxsum = nums[0];
+        int maxsum = nums[0];               
         int cursum = nums[0];
         for(int i=1; i<n; i++){
-        cursum=max(nums[i],nums[i]+cursum);
+        cursum=max(nums[i],nums[i]+cursum);       // checking which one is better 
         maxsum=max(maxsum,cursum);
     }
     return maxsum;
