@@ -13,7 +13,7 @@ class Solution {
     vector<int> topoSort(int V, vector<vector<int>>& edges) {
         // converting it into adjacency list!!
         int n = edges.size();
-        vector<vector<int>> adj(V);       // define the size because u need to access a particular index!!
+        vector<vector<int>> adj(V);   // define the size because u need to access a particular index!!
         for(auto it: edges){
             int u = it[0];  // the owner of the edge
             int v = it[1];    // in the adj right now!!
