@@ -8,7 +8,7 @@ public:
             while(!st.empty() && heights[st.top()]>heights[i]){
                 int ind = st.top();
                 st.pop();
-                int nse = i; // kyuki jisko bhi ye bahr nikaal raha usska ye nse hai
+                int nse = i; // kyuki jisko bhi ye bahr nikaal raha usska ye nse hai..
 
                 if(st.empty()){
                     maxarea=max(maxarea,(heights[ind]*(nse)));
@@ -20,7 +20,8 @@ public:
             }
             st.push(i);
         }
-        // empty the stack though
+        // empty the stack 
+        // now
         while(!st.empty()){
              // as there is no nse
             int ind = st.top();
